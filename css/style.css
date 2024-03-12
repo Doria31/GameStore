@@ -1,0 +1,297 @@
+/* PAGINA PRINCIPAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 1.0rem;
+}
+
+.tituloicon{
+    padding: 30px;
+    color: white;
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.tituloicon:hover{
+    transform: scale(1.04);
+    color: rgb(194, 194, 194);
+}
+
+
+.material-symbols-outlined{
+    margin-right: 1.0rem;
+    
+}
+
+header{
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#linea{
+    font-size: 25px;
+    color:  rgb(172, 172, 172);
+}
+
+#linea:hover{
+    background-color: black;
+}
+
+#iniciosesion{
+    background-color: rgb(119, 0, 0);
+    padding: 1.0rem;
+    border-radius: 5px;
+
+}
+
+#iniciosesion:hover{
+    color:  rgb(172, 172, 172);
+    transition: 0.4s;
+
+}
+
+nav a:hover{
+    background-color: gray;
+    padding: 1.0rem;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#registrate{
+    background-color: gray;
+    padding: 1.0rem;
+    border-radius: 5px;
+}
+
+#registrate:hover{
+    color: rgb(119, 0, 0);
+    transition: 0,4s;
+    
+
+}
+
+.section1{
+    background-color: black;
+    cursor: pointer;
+}
+
+.container1{
+    display: flex;
+    
+}
+
+.texto1{
+    margin-top: 150px;
+    margin-left: 65px;
+}
+
+#gtavi{
+    color: white;
+}
+
+#trailer1{
+    color:  rgb(223, 223, 223);
+}
+
+#verahora{
+    background-color: rgb(119, 0, 0);
+    color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#verahora:hover{
+    color: black;
+    transition: 0,4s;
+    
+}
+
+.container2{
+    display: flex;
+}
+
+.imgcard{
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.imgwarzone{
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 101px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgf12024{
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgnba24{
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 38px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgmw3{
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgthelasofus{
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgnfs{
+    width: 300px;
+    margin-top: 23px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    background-color:black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px 6px rgb(20, 20, 20);
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px 5px  rgb(119, 0, 0);
+    transform: scale(1.05);
+    color: rgb(172, 172, 172);
+    transition: 1.0s;
+}
+
+
+.section2{
+    background-color: rgb(11, 11, 11);
+}
+
+#tienda{
+    font-size: 40px;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    font-family: 'Pricedown Bl', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.titulofortnite{
+    margin-top: 25px;
+}
+
+.titulowarzone{
+    margin-top: 18px;
+}
+
+.comprar{
+    padding-left: 115px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(119, 0, 0);
+    border-radius: 5px;
+    transition: 0.4s;
+    
+}
+
+.comprar:hover{
+    color: black;
+}
+
+.preciocompra{
+    color: gray;
+}
+
+footer{
+    padding: 100px;
+    background-color: black;
+}
+
+
+.infocontact{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+}
+
+
+#footergs{
+    margin-left: 70px;
+    margin-right: 160px;
+}
+
+#creditos{
+    margin-left: 130px;
+}
+
+
+#redesociales{
+    margin-left: 250px;
+}
+
+#redesociales a{
+    padding: 15px;
+    font-size: 20px;
+}
+
+#redesociales a:hover{
+    color: rgb(119, 0, 0);
+    transition: 0.4s;
+}
+
+/* FIN PAGINA PRICIPAL */

@@ -1,0 +1,347 @@
+
+/* PAGINA DE SOPORTE RED DEAD REDEMPTION 2 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body{
+    background: linear-gradient(black, rgb(10, 10, 10));
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 1.0rem;
+}
+
+.tituloicon{
+    padding: 30px;
+    color: white;
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.tituloicon:hover{
+    transform: scale(1.04);
+    color: rgb(194, 194, 194);
+}
+
+.material-symbols-outlined{
+    margin-right: 1.0rem;
+}
+
+header{
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#linea{
+    font-size: 25px;
+    color:  rgb(172, 172, 172);
+}
+
+#linea:hover{
+    background-color: black;
+}
+
+
+#iniciosesion{
+    background-color: rgb(119, 0, 0);
+    padding: 1.0rem;
+    border-radius: 5px;
+
+}
+
+#iniciosesion:hover{
+    color:  rgb(172, 172, 172);
+    transition: 0.4s;
+
+}
+
+nav a:hover{
+    background-color: gray;
+    padding: 1.0rem;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+section{
+    padding-bottom: 50px;
+    
+}
+
+.imgrd2{
+    width: 500px;
+    margin-left: 420px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+#textord2{
+    color: white;
+    margin: 0px 270px 0px 280px;
+    
+}
+
+#botones{
+    display: flex;
+    flex-direction: column;
+}
+
+#vertrailer{
+    background-color: red;
+    padding: 10px;
+    margin-left: 550px;
+    margin-right: 60px;
+    border-radius: 5px;
+}
+
+#vertrailer:hover{
+    color: black;
+    transition: 0.9s;
+    
+}
+
+#comprar{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#comprar:hover{
+    color: rgb(211, 211, 211);
+    transition: 0.9s;
+}
+
+footer{
+    padding: 100px;
+    background-color: black;
+}
+
+
+.infocontact{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+}
+
+
+#footergs{
+    margin-left: 70px;
+    margin-right: 160px;
+}
+
+#creditos{
+    margin-left: 130px;
+}
+
+
+#redesociales{
+    margin-left: 250px;
+}
+
+#redesociales a{
+    padding: 15px;
+    font-size: 20px;
+}
+
+#redesociales a:hover{
+    color: rgb(119, 0, 0);
+    transition: 0.4s;
+}
+/* PAGINA SOPORTE RED DEAD REDEMPTION 2 FIN */
+
+
+/* PAGINA WARZONE 2.0 */
+
+
+.tituloiconw2{
+    padding: 30px;
+    color: white;
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.tituloiconw2:hover{
+    transform: scale(1.04);
+    color: rgb(194, 194, 194);
+}
+
+#iniciosesionw2{
+    background-color: rgb(11, 160, 11);
+    padding: 1.0rem;
+    border-radius: 5px;
+
+}
+
+#iniciosesionw2:hover{
+    color:  rgb(172, 172, 172);
+    transition: 0.9s;
+}
+
+
+
+.imgw2{
+    width: 500px;
+    margin-left: 420px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+#comprarw2{
+    background-color:rgb(11, 160, 11);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#comprarw2:hover{
+    color: rgb(211, 211, 211);
+    transition: 0.9s;
+}
+
+#vertrailerw2{
+    background-color:gray;
+    padding: 10px;
+    margin-left: 550px;
+    margin-right: 60px;
+    border-radius: 5px;
+}
+
+#vertrailerw2:hover{
+    color: black;
+    transition: 0.9s;
+    
+}
+
+#redesocialesw2{
+    margin-left: 250px;
+}
+
+
+#redesocialesw2 a{
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+#redesocialesw2 a:hover{
+    color: rgb(11, 160, 11);
+    transition: 0.4s;
+
+}
+
+#informaciónw2{
+    background: rgb(5, 5, 5);
+}
+
+
+/* PAGINA WARZONE 2.0 FIN */
+
+
+
+/* PAGINA FORTNITE */
+
+
+.tituloiconft{
+    padding: 30px;
+    color: white;
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.tituloiconft:hover{
+    transform: scale(1.04);
+    color: rgb(194, 194, 194);
+}
+
+#iniciosesionft{
+    background-color:rgb(133, 2, 133);
+    padding: 1.0rem;
+    border-radius: 5px;
+
+}
+
+#iniciosesionft:hover{
+    color:  rgb(172, 172, 172);
+    transition: 0.9s;
+}
+
+
+
+.imgft{
+    width: 500px;
+    margin-left: 420px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+#comprarft{
+    background-color:rgb(133, 2, 133);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#comprarft:hover{
+    color: rgb(211, 211, 211);
+    transition: 0.9s;
+}
+
+#vertrailerft{
+    background-color:gray;
+    padding: 10px;
+    margin-left: 550px;
+    margin-right: 60px;
+    border-radius: 5px;
+}
+
+#vertrailerft:hover{
+    color: black;
+    transition: 0.9s;
+    
+}
+
+#redesocialesft{
+    margin-left: 250px;
+}
+
+
+#redesocialesft a{
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+#redesocialesft a:hover{
+    color: rgb(133, 2, 133);
+    transition: 0.4s;
+
+}
+
+#informaciónft{
+    background: rgb(5, 5, 5);
+}
+
+/* PAGINA FORTNITE FIN */
